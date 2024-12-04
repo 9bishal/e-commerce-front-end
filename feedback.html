@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="#" method="post">
+        <label for="feedback" class="no-underline">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+        
+        <label for="rating" class="no-underline">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

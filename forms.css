@@ -1,0 +1,90 @@
+/* General Styles for All Forms */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Form Styling */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Textarea Fields */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* FAQ Page Styling - Specific */
+input[type="text"]#question {
+    margin-bottom: 20px;
+}
+
+/* Refund Form Styling */
+textarea#reason {
+    margin-bottom: 20px;
+}
+
+/* Stories Page Styling */
+textarea#story {
+    margin-bottom: 20px;
+}
+
+/* Instagram Link Styling in Store */
+.store .social-links a {
+    text-decoration: none;
+    color: #e4405f;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.store .social-links a:hover {
+    color: #f50057;
+}
